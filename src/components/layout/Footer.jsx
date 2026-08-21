@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "@/assests/logo/Actual logo.svg";
 
 export default function Footer() {
   return (
@@ -7,9 +8,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-16 py-5">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-1">
-            <Link to="/" className="text-foreground font-bold text-xl tracking-widest italic">
-              THENPANDIAN
-            </Link>
+            <Link to="/" className="flex items-center gap-2">
+          <img src={logo} alt="Thenpandiyan Logo" className="h-[60px] lg:h-[80px] w-[200px] object-contain" />
+        </Link>
             <p className="text-muted-foreground text-sm mt-4 leading-relaxed">
               Thenpandian Textile India Pvt Ltd — trusted manufacturer and exporter of premium woven fabrics and garments for global markets.
             </p>
