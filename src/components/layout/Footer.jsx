@@ -39,7 +39,7 @@ export default function Footer() {
             <div className="flex flex-col gap-3 text-muted-foreground text-sm">
               <p>1/185 Paramathy Road, Near SIDCO</p>
               <p>Namakkal – 637001, Tamil Nadu, India</p>
-              <p>thenpandiantextile@gmail.com</p>
+              <p>thenpandiyantextile@gmail.com</p>
               <p>+91 4286 286 259</p>
             </div>
           </div>
