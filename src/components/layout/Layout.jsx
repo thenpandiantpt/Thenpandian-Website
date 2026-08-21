@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 export default function Layout() {
   useEffect(() => {
-    const measurementId = "G-LVWJLVWW4R";
+    const measurementId = "G-LX5XP0CWTD";
 
     // Prevent duplicate Google Analytics script
     if (!document.getElementById("google-analytics")) {
