@@ -201,7 +201,7 @@ export default function Contact() {
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
                     <Mail className="w-4 h-4 text-primary flex-shrink-0" />
-                    <span className="text-foreground/80 text-sm">thenpandiantextile@gmail.com</span>
+                    <span className="text-foreground/80 text-sm">thenpandiyantextile@gmail.com</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Phone className="w-4 h-4 text-primary flex-shrink-0" />
